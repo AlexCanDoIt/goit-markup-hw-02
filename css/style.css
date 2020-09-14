@@ -1,10 +1,10 @@
 :root {
 	--main-font: "Roboto", sans-serif;
-	--secondary-font: "Raleway" sans-serif;
+	--secondary-font: "Raleway", sans-serif;
 	--title-white-theme-color: #212121;
-	--title-dark-theme-color: red; /* #ffffff; */
+	--title-dark-theme-color: #ffffff;
 	--text-white-theme-color: #757575;
-	--text-dark-theme-color: red; /* #ffffff; */
+	--text-dark-theme-color: #ffffff;
 	--accent-color: #2196F3;
 }
 
@@ -61,6 +61,10 @@ body {
 .header-address-list-mail:focus,
 .header-address-list-tel:hover,
 .header-address-list-tel:focus {
+	color: var(--accent-color);
+}
+
+.active {
 	color: var(--accent-color);
 }
 /* ========== end header ========== */
@@ -196,8 +200,7 @@ body {
 }
 
 .footer-logo span {
-	color: red;
-	/* color: #ffffff; */
+	color: #ffffff;
 }
 
 .footer-address-list-address {
@@ -214,8 +217,7 @@ body {
 	font-size: 14px;
 	line-height: 1.714;
 	letter-spacing: 0.03em;
-	color:	red;
-	/* color: rgba(255, 255, 255, 0.6); */
+	color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-address-list-address:hover,
